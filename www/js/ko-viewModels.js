@@ -1,3 +1,6 @@
+var monthNames = [ "Januari", "Februari", "Maart", "April", "Mei", "Juni",
+    "Juli", "Augustus", "September", "October", "November", "December" ];
+
 var GastouderViewModel = function(){
 	var self = this;
 
@@ -18,6 +21,44 @@ var GastouderViewModel = function(){
 		self.children.push(childViewModel);
 		self.pages.push(new PageViewModel(childViewModel.firstName(), childViewModel.firstName(), false, childViewModel));
 	};
+
+	self.months = ko.computed(function(){
+		var months = [];
+
+		self.children().forEach(function(child) {
+			child.playTimes().forEach(function(playTime){
+				if(playTime.endDate()){
+					var key = playTime.startDate().getFullYear() * 100 + playTime.startDate().getMonth() + 1; // Month is zero based
+					var name = monthNames[playTime.startDate().getMonth()] + ' ' + playTime.startDate().getFullYear();
+
+					var monthResult = $.grep(months, function(item){ return item.key == key; });
+					var month = monthResult[0];
+					if(monthResult.length == 0){
+						month = { key: key, displayName: name, totalHours: 0, totalEuros: 0, children: [] }
+						months.push(month);
+					}
+
+					var foundChildResult = $.grep(month.children, function(item){ return item.name == child.firstName(); });
+					var foundChild = foundChildResult[0];
+					if(foundChildResult.length == 0){
+						foundChild = { name: child.firstName(), totalHours: 0, totalEuros: 0 };
+						month.children.push(foundChild);
+					}
+
+					month.totalHours += playTime.totalHours();
+					month.totalEuros += playTime.totalEuros();
+					foundChild.totalHours += playTime.totalHours();
+					foundChild.totalEuros += playTime.totalEuros();
+				}
+			});
+		});
+
+		months.sort(function(left, right){
+			// Last to first sorting
+			return left.key < right.key ? 1 : -1;
+		});
+		return months;
+	});
 }
 
 var PageViewModel = function(href, name, childViewModel){
@@ -86,4 +127,20 @@ var PlayTimeViewModel = function(startDate, endDate){
 
 	self.startDate = ko.observable(startDate);
 	self.endDate = ko.observable(endDate);
+
+	self.totalHours = ko.computed(function(){
+		if(self.endDate()){
+			// Is in milliseconds
+			return (self.endDate() - self.startDate()) / 1000 / 60 / 60;
+		}
+		return 0;
+	});
+
+	self.totalEuros = ko.computed(function(){
+		if(self.endDate()){
+			// Is in milliseconds
+			return (self.endDate() - self.startDate()) / 1000 / 60 / 60 * 5; /* 5 euro's per hour */
+		}
+		return 0;
+	});
 }
