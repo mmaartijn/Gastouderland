@@ -68,7 +68,7 @@ $("#page_home").on("click", "#popup_stopstart a", function() {
     return true;
 });
 
-$('#btnToggleEuro').vclick(function(e){
+$('#btnToggleEuro').on('vclick', function(e){
   e.preventDefault();
 
   viewmodel.currentToggleIsEuro(!viewmodel.currentToggleIsEuro());

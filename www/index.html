@@ -30,7 +30,7 @@
         <div data-role="header" id="globalHeader" data-theme="a">
             <a href="#globalPanel" data-role="button">Menu</a>
             <h1 data-bind="text: selectedPage().name"></h1>
-            <a href="#" data-bind="if: selectedPage()., css: { 'ui-icon-clock': currentToggleIsEuro, 'ui-icon-star': !currentToggleIsEuro }" class="jqm-search-link ui-btn-right ui-btn ui-btn-icon-notext ui-corner-all" data-role="button" role="button" id="btnToggleEuro"></a>
+            <a href="#" data-bind="if: selectedPage().canToggleEuroHours, css: { 'ui-icon-clock': currentToggleIsEuro, 'ui-icon-star': !currentToggleIsEuro }" class="jqm-search-link ui-btn-right ui-btn ui-btn-icon-notext ui-corner-all" data-role="button" role="button" id="btnToggleEuro"></a>
         </div>
         <div data-role="panel" id="globalPanel" data-display="overlay" data-theme="a">
             <ul data-role="listview" data-bind="foreach: pages">
