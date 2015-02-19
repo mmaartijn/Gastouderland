@@ -2,9 +2,8 @@ var ko_testViewModel = new GastouderViewModel();
 
 var homePage = new PageViewModel('index.html', 'Wie is er?');
 ko_testViewModel.pages.push(homePage);
-ko_testViewModel.pages.push(new PageViewModel('months.html', 'Maandoverzicht'))
+ko_testViewModel.pages.push(new PageViewModel('months.html', 'Maandoverzicht', undefined, true))
 ko_testViewModel.pages.push(new PageViewModel('children.html', 'Kinderen'))
-ko_testViewModel.pages.push(new PageViewModel('#test', 'Test'))
 ko_testViewModel.selectedPage(homePage);
 
 var melle = new ChildViewModel('Melle');

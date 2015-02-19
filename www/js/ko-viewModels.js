@@ -16,6 +16,7 @@ var GastouderViewModel = function(){
 
 	self.pages = ko.observableArray();
 	self.selectedPage = ko.observable();
+	self.currentToggleIsEuro = ko.observable(false);
 
 	self.pushChild = function(childViewModel){
 		self.children.push(childViewModel);
@@ -61,12 +62,13 @@ var GastouderViewModel = function(){
 	});
 }
 
-var PageViewModel = function(href, name, childViewModel){
+var PageViewModel = function(href, name, childViewModel, canToggleEuroHours){
 	var self = this;
 
 	self.href = ko.observable(href);
 	self.name = ko.observable(name);
 	self.childViewModel = ko.observable(childViewModel);
+	self.canToggleEuroHours = ko.observable(canToggleEuroHours || false);
 }
 
 var ChildViewModel = function(firstName){

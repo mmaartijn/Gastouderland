@@ -68,8 +68,8 @@ $("#page_home").on("click", "#popup_stopstart a", function() {
     return true;
 });
 
-$("#panel_menu").on("click", "a", function() {
-//    var page = ko.dataFor(this);
-//    viewModel.selectedPage(page);
-//    return true;
-});
+$('#btnToggleEuro').vclick(function(e){
+  e.preventDefault();
+
+  viewmodel.currentToggleIsEuro(!viewmodel.currentToggleIsEuro());
+})

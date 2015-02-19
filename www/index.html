@@ -5,8 +5,8 @@
         <meta name="format-detection" content="telephone=no" />
         <meta name="msapplication-tap-highlight" content="no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
-         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=medium-dpi" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=medium-dpi" />-->
 
         <!-- JQuery links -->
         <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
@@ -30,6 +30,7 @@
         <div data-role="header" id="globalHeader" data-theme="a">
             <a href="#globalPanel" data-role="button">Menu</a>
             <h1 data-bind="text: selectedPage().name"></h1>
+            <a href="#" data-bind="if: selectedPage()., css: { 'ui-icon-clock': currentToggleIsEuro, 'ui-icon-star': !currentToggleIsEuro }" class="jqm-search-link ui-btn-right ui-btn ui-btn-icon-notext ui-corner-all" data-role="button" role="button" id="btnToggleEuro"></a>
         </div>
         <div data-role="panel" id="globalPanel" data-display="overlay" data-theme="a">
             <ul data-role="listview" data-bind="foreach: pages">
