@@ -15,3 +15,5 @@ siem.playTimes.push(new PlayTimeViewModel(new Date('2015-02-12 08:15'), new Date
 
 ko_testViewModel.pushChild(melle);
 ko_testViewModel.pushChild(siem);
+
+// Komt dit door?
