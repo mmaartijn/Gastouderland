@@ -50,6 +50,44 @@ var GastouderViewModel = function(){
 					month.totalEuros += playTime.totalEuros();
 					foundChild.totalHours += playTime.totalHours();
 					foundChild.totalEuros += playTime.totalEuros();
+
+					month.displayValue = ko.computed(function(){
+						if(self.currentToggleIsEuro()){
+							return '€ ' + month.totalEuros.toFixed(2).replace('.', ',');
+						}
+						else{
+							var result = parseInt(month.totalHours);
+							if(month.totalHours < 10){
+								result = '0' + result;
+							}
+							result += ':'
+							var decimal = month.totalHours - Math.floor(month.totalHours);
+							result += decimal * 60;
+							if(decimal == 0){
+								result += '0';
+							}
+							return result;
+						}
+					});
+
+					foundChild.displayValue = ko.computed(function(){
+						if(self.currentToggleIsEuro()){
+							return '€ ' + month.totalEuros.toFixed(2).replace('.', ',');
+						}
+						else{
+							var result = parseInt(foundChild.totalHours);
+							if(foundChild.totalHours < 10){
+								result = '0' + result;
+							}
+							result += ':'
+							var decimal = foundChild.totalHours - Math.floor(foundChild.totalHours);
+							result += decimal * 60;
+							if(decimal == 0){
+								result += '0';
+							}
+							return result;
+						}
+					})
 				}
 			});
 		});

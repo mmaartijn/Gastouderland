@@ -1,8 +1,8 @@
 var ko_testViewModel = new GastouderViewModel();
 
-var homePage = new PageViewModel('index.html', 'Wie is er?');
+var homePage = new PageViewModel('#page_home', 'Wie is er?');
 ko_testViewModel.pages.push(homePage);
-ko_testViewModel.pages.push(new PageViewModel('months.html', 'Maandoverzicht', undefined, true))
+ko_testViewModel.pages.push(new PageViewModel('#page_months', 'Maandoverzicht', undefined, true))
 ko_testViewModel.pages.push(new PageViewModel('children.html', 'Kinderen'))
 ko_testViewModel.selectedPage(homePage);
 
@@ -17,7 +17,7 @@ siem.playTimes.push(new PlayTimeViewModel(new Date('2015-02-12 08:15'), new Date
 siem.playTimes.push(new PlayTimeViewModel(new Date('2015-01-12 08:15'), new Date('2015-01-12 17:15')));
 siem.playTimes.push(new PlayTimeViewModel(new Date('2015-01-13 08:15'), new Date('2015-01-13 17:15')));
 siem.playTimes.push(new PlayTimeViewModel(new Date('2014-12-13 08:15'), new Date('2014-12-13 17:15')));
-siem.playTimes.push(new PlayTimeViewModel(new Date('2014-12-12 08:15'), new Date('2014-12-12 17:15')));
+siem.playTimes.push(new PlayTimeViewModel(new Date('2014-12-12 08:15'), new Date('2014-12-12 17:45')));
 
 ko_testViewModel.pushChild(melle);
 ko_testViewModel.pushChild(siem);

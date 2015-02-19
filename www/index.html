@@ -30,7 +30,7 @@
         <div data-role="header" id="globalHeader" data-theme="a">
             <a href="#globalPanel" data-role="button">Menu</a>
             <h1 data-bind="text: selectedPage().name"></h1>
-            <a href="#" data-bind="if: selectedPage().canToggleEuroHours, css: { 'ui-icon-clock': currentToggleIsEuro, 'ui-icon-star': !currentToggleIsEuro }" class="jqm-search-link ui-btn-right ui-btn ui-btn-icon-notext ui-corner-all" data-role="button" role="button" id="btnToggleEuro"></a>
+            <a href="#" data-bind="if: selectedPage().canToggleEuroHours, css: { 'ui-icon-clock': currentToggleIsEuro() == false, 'ui-icon-star': currentToggleIsEuro() == true }" class="jqm-search-link ui-btn-right ui-btn ui-btn-icon-notext ui-corner-all" data-role="button" role="button" id="btnToggleEuro"></a>
         </div>
         <div data-role="panel" id="globalPanel" data-display="overlay" data-theme="a">
             <ul data-role="listview" data-bind="foreach: pages">
@@ -40,13 +40,13 @@
                 </li>
             </ul>
         </div>
+        <!--
+            ========================================================================
+                                        Home page
+            ========================================================================
+        -->
         <div data-role="page" id="page_home">
             <div role="main" class="ui-content">
-                <!--
-                    ========================================================================
-                                                Home page
-                    ========================================================================
-                -->
                 <ul data-role="listview" data-bind="foreach: sortedChildren">
                     <li data-bind="attr: { 'data-theme': isPresent() ? 'b' : 'a' }">
                         <span data-bind="text: firstName"></span>
@@ -77,6 +77,34 @@
                     <br />
                     <a href="#page_home" data-role="button" data-rel="back" data-mini="true" class="ui-corner-all" data-bind="text: selectedChild().isPresent() ? 'Stop' : 'Start', css: { 'ui-btn-b' : selectedChild().isPresent(), 'ui-btn-a' : !selectedChild().isPresent() }" class="startStopHide"></a>
                 </div>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <h4>©mmaartijn</h4>
+            </div>
+        </div>
+        <!--
+            ========================================================================
+                                        Maandoverzicht
+            ========================================================================
+        -->
+        <div data-role="page" id="page_months">
+            <div role="main" class="ui-content">
+                <ul data-role="listview" data-bind="foreach: months">
+                    <li data-theme="b" data-iconpos="right" data-inset="true">
+                        <h1 data-bind="text: displayName"></h1>
+                        <p class="ui-li-aside">
+                            <strong data-bind="text: displayValue"></strong>
+                        </p>
+                        <ul data-role="listview" data-bind="foreach: children" data-theme="a">
+                            <li data-theme="a" data-inset="false">
+                                <span data-bind="text: name"></span>
+                                <p class="ui-li-aside">
+                                    <strong data-bind="text: displayValue"></strong>
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
             <div data-role="footer" data-position="fixed">
                 <h4>©mmaartijn</h4>
