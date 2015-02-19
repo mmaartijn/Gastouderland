@@ -6,13 +6,13 @@
 <div data-role="page" id="page_home">
 	<div role="main" class="ui-content">
 	    <ul data-role="listview" data-bind="foreach: months">
-	        <li data-theme="b" data-role="collapsible" data-iconpos="right">
+	        <li data-theme="b" data-iconpos="right" data-inset="false">
 	            <h2 data-bind="text: displayName"></h2>
 	            <p class="ui-li-aside">
 	                <strong data-bind="text: totalHours"></strong>
 	            </p>
 	            <ul data-role="listview" data-bind="foreach: children" data-theme="a">
-	                <li data-theme="a">
+	                <li data-theme="a" data-inset="false">
 	                    <span data-bind="text: name"></span>
 	                    <p class="ui-li-aside">
 	                        <strong data-bind="text: totalHours"></strong>
