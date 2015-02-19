@@ -1,0 +1,589 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"selected",
+				"selectedPage"
+			],
+			[
+				"init",
+				"initGlobals"
+			],
+			[
+				"child",
+				"childViewModel"
+			],
+			[
+				"childV",
+				"ChildViewModel"
+			],
+			[
+				"chie",
+				"childViewModel"
+			],
+			[
+				"sugge",
+				"suggestedStartStopMinutes"
+			],
+			[
+				"leave",
+				"leaveDate"
+			],
+			[
+				"suggest",
+				"suggestedStartStopHours"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"mod",
+				"moduleName"
+			],
+			[
+				"err",
+				"errCb"
+			],
+			[
+				"module",
+				"moduleServer"
+			],
+			[
+				"ser",
+				"serveStatic"
+			],
+			[
+				"device",
+				"devicesSchema"
+			],
+			[
+				"getde",
+				"getDevices"
+			],
+			[
+				"btn",
+				"btnLoginClicked"
+			],
+			[
+				"numberOf",
+				"numberOfResources"
+			],
+			[
+				"num",
+				"numberOfPalaces"
+			],
+			[
+				"score",
+				"scoreOases"
+			],
+			[
+				"sco",
+				"scoreCamels"
+			],
+			[
+				"scorec",
+				"scoreCoins"
+			],
+			[
+				"nu",
+				"numberOfCoins"
+			],
+			[
+				"has",
+				"hasJafaar"
+			],
+			[
+				"fireba",
+				"fireBaseRef"
+			],
+			[
+				"fire",
+				"fireBaseRef2"
+			],
+			[
+				"Fireb",
+				"Firebase"
+			],
+			[
+				"geolo",
+				"geolocationOptions"
+			],
+			[
+				"get",
+				"getPicture"
+			],
+			[
+				"camer",
+				"cameraOptions"
+			],
+			[
+				"error",
+				"errorCB"
+			],
+			[
+				"trans",
+				"transaction"
+			],
+			[
+				"erro",
+				"errorCB"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "www/js/index.js",
+			"settings":
+			{
+				"buffer_size": 2126,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/index.html",
+			"settings":
+			{
+				"buffer_size": 5120,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/months.html",
+			"settings":
+			{
+				"buffer_size": 399,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/css/index.css",
+			"settings":
+			{
+				"buffer_size": 147,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/js/ko-testData.js",
+			"settings":
+			{
+				"buffer_size": 742,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Add Repository"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/mmaaschu/Documents/Hobby/gastouderland/www/js/ko-viewModels.js",
+		"/C/Users/mmaaschu/Documents/Hobby/gastouderland/www/js/ko-testData.js",
+		"/C/Users/mmaaschu/Documents/Hobby/Gastouderland/www/home.html",
+		"/C/Users/mmaaschu/Documents/Hobby/gastouderland/www/icon.png",
+		"/C/Users/mmaaschu/Documents/Hobby/gastouderland/www/menu.html",
+		"/C/Users/mmaaschu/Documents/Hobby/gastouderland/www/css/index.css",
+		"/C/Users/mmaaschu/Documents/Hobby/Gastouderland/www/menu.html",
+		"/C/Users/mmaaschu/Documents/Hobby/gastouderland/www/index.html",
+		"/C/Users/mmaaschu/Documents/Hobby/Gastouderland/www/js/testData.js",
+		"/C/Users/mmaaschu/Documents/Hobby/gastouderland/www/spec.html",
+		"/C/Users/mmaaschu/Documents/Hobby/FiveTribesScoringSheet/www/index.html",
+		"/C/Users/mmaaschu/Documents/Hobby/Gastouderland/config.xml",
+		"/C/Users/mmaaschu/Documents/MDB1/multifilepages/www/index.html",
+		"/C/Users/mmaaschu/Documents/WEBS5/ThijsFransen/calculator.html",
+		"/C/Users/mmaaschu/Documents/WEBS5/ThijsFransen/app.js",
+		"/C/Users/mmaaschu/Documents/WEBS5/ThijsFransen/package.json",
+		"/C/Users/mmaaschu/Desktop/test.js",
+		"/C/Users/mmaaschu/Documents/WEBS5/cwbuecheler_Tutorial/nodetest2/routes/users.js",
+		"/C/Users/mmaaschu/Documents/WEBS5/cwbuecheler_Tutorial/nodetest2/package.json",
+		"/C/Users/mmaaschu/Documents/WEBS5/cwbuecheler_Tutorial/nodetest2/public/javascripts/global.js",
+		"/C/Users/mmaaschu/Documents/WEBS5/cwbuecheler_Tutorial/nodetest2/app.js",
+		"/C/Users/mmaaschu/Documents/WEBS5/cwbuecheler_Tutorial/nodetest2/views/index.jade",
+		"/C/Users/mmaaschu/Documents/WEBS5/cwbuecheler_Tutorial/nodetest2/public/stylesheets/style.css",
+		"/C/Users/mmaaschu/Documents/WEBS5/cwbuecheler_Tutorial/nodetest2/views/layout.jade",
+		"/C/Users/mmaaschu/Documents/WEBS5/cwbuecheler_Tutorial/nodetest1/views/newuser.jade",
+		"/C/Users/mmaaschu/Documents/WEBS5/IPC/Uitwerkingen MMAASCHU/Week 4/Opdracht 1/app.js",
+		"/C/Users/mmaaschu/Documents/WEBS5/cwbuecheler_Tutorial/nodetest1/app.js",
+		"/C/Users/mmaaschu/Documents/WEBS5/cwbuecheler_Tutorial/nodetest1/routes/index.js",
+		"/C/Users/mmaaschu/Documents/WEBS5/cwbuecheler_Tutorial/nodetest1/package.json",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_WEBS5/11_WEBS5_1415/Week 2/Solutions/webserver.js",
+		"/C/Users/mmaaschu/Documents/Hobby/AvansUitleen/package.json",
+		"/C/Users/mmaaschu/Documents/Hobby/AvansUitleen/server.js",
+		"/C/Users/mmaaschu/Documents/Hobby/AvansUitleen/devices.js",
+		"/C/Users/mmaaschu/Documents/Hobby/AvansUitleen/index.html",
+		"/C/Users/mmaaschu/Documents/MDB1/UitwerkingenWeek1/config.xml",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_WEBS5/11_WEBS5_1415/Week 1/Workshop/underscore.js",
+		"/C/Users/mmaaschu/Desktop/Dickbutt/www/index.html",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_WEBS5/11_WEBS5_1415/IPC_1314/Uitwerkingen MMAASCHU/Week 4/Opdracht 1/AvansTestChat/app.js",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_WEBS5/11_WEBS5_1415/IPC_1314/Uitwerkingen MMAASCHU/Week 3/Opdracht 1/app.js",
+		"/C/Users/mmaaschu/Documents/Hobby/AvansUitleen/js/main.js",
+		"/C/Users/mmaaschu/Documents/Hobby/AvansUitleen/css/main.css",
+		"/C/Users/mmaaschu/Documents/Hobby/AvansUitleen/settings.js",
+		"/C/Users/mmaaschu/Documents/Hobby/AvansUitleen/client.js",
+		"/C/Users/mmaaschu/Downloads/DemoCameraAndGeolocation-debug/assets/www/phonegap.js",
+		"/C/Users/mmaaschu/Downloads/DemoCameraAndGeolocation-debug/assets/www/index.html",
+		"/C/Users/mmaaschu/AppData/Local/Temp/Temp1_startup.zip/index.html",
+		"/C/Users/mmaaschu/Downloads/DemoCameraAndGeolocation-debug/AndroidManifest.xml",
+		"/C/Users/mmaaschu/AppData/Local/Temp/Temp1_DemoCameraAndGeolocation-debug.zip/assets/www/plugins/org.apache.cordova.network-information/www/network.js",
+		"/C/Users/mmaaschu/Documents/GitHub/AvansTestChat/client.js",
+		"/C/Users/mmaaschu/Documents/GitHub/AvansTestChat/index.html",
+		"/C/Users/mmaaschu/Documents/GitHub/AvansTestChat/app.js",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_WEBS5/11_WEBS5_1415/IPC_1314/IPC/Mike & Victor/Week 4/chat.js",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_WEBS5/11_WEBS5_1415/Week 4/mongodb3.js",
+		"/C/Users/mmaaschu/Documents/WEBS5/MyGeneratedApp/views/error.jade",
+		"/C/Users/mmaaschu/Documents/WEBS5/MyGeneratedApp/views/layout.jade",
+		"/C/Users/mmaaschu/Documents/WEBS5/MyGeneratedApp/bin/www",
+		"/C/Users/mmaaschu/Documents/WEBS5/MyGeneratedApp/package.json",
+		"/C/Users/mmaaschu/Documents/WEBS5/MyGeneratedApp/app.js",
+		"/C/Users/mmaaschu/Documents/WEBS5/MyGeneratedApp/routes/index.js",
+		"/C/Users/mmaaschu/Documents/WEBS5/MyGeneratedApp/views/index.jade",
+		"/C/Users/mmaaschu/Documents/WEBS5/MochaTest/Test.js",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_WEBS5/11_WEBS5_1415/Week 1/package.json",
+		"/C/Users/mmaaschu/Downloads/package (1).json",
+		"/C/Users/mmaaschu/Downloads/package.json",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_WEBS5/11_WEBS5_1415/Week 1/underscore.js",
+		"/C/Users/mmaaschu/Documents/MDB1/MyFirstPhonegapApp/www/index.html",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_WEBS5/11_WEBS5_1415/Week 1/http.js",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_WEBS5/11_WEBS5_1415/Week 1/helloworld.js",
+		"/C/Users/mmaaschu/Documents/MDB1/MyTestUIApp/config.xml",
+		"/C/Users/mmaaschu/Documents/MDB1/MyTestApp/config.xml",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_WEBS5/11_WEBS5_1415/IPC_1314/Uitwerkingen MMAASCHU/Week 4/Opdracht 1/AvansTestChat/package.json",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_MBD1/11_MBD1_1415/Referentiemateriaal_Week5/DemoConnected/www/js/index.js",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_MBD1/11_MBD1_1415/Referentiemateriaal_Week5/DemoConnected/www/index.html",
+		"/C/Users/mmaaschu/Desktop/Microsoft Visual Studio Scrum 2013.3/WorkItem Tracking/WorkItems.xml",
+		"/C/Users/mmaaschu/Desktop/VSR Mike Limburg/ToDo App Mike Limburg/ToDo/bower.json",
+		"/C/Users/mmaaschu/Desktop/Microsoft Visual Studio Scrum 2013.3/WorkItem Tracking/TypeDefinitions/Task.xml",
+		"/C/Users/mmaaschu/Desktop/Microsoft Visual Studio Scrum 2013.3/WorkItem Tracking/Categories.xml",
+		"/C/Users/mmaaschu/Documents/Hobby/FiveTribesScoringSheet/www/js/index.js",
+		"/C/Users/mmaaschu/AppData/Roaming/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/mmaaschu/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/mmaaschu/Desktop/backbone-cellar-master/tutorial/part1/js/main.js",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_MBD1/11_MBD1_1415/DemoPagingAndSwiping_mmaaschu/www/index.html",
+		"/C/Users/mmaaschu/Desktop/backbone-cellar-master/tutorial/part1/index.html",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_WEBS5/Week 1/node_modules/underscore/underscore.js",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_WEBS5/Week 1/node_modules/underscore/underscore-min.js",
+		"/C/Users/mmaaschu/Documents/WEBS5/IPC/Uitwerkingen MMAASCHU/Week 4/Opdracht 1/package.json",
+		"/C/Users/mmaaschu/Documents/MDB1/Phonegap tests/Phonegap demo1/Demo1/index.html",
+		"/C/Users/mmaaschu/Documents/MDB1/Phonegap tests/Phonegap demo1/Demo2/hello/www/index.html",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_WEBS5/Week 3/solutions/solution 1/app.js",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_WEBS5/Week 3/Rest client example/index.html",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_WEBS5/Week 3/Rest client example/app_stripped.js",
+		"/C/Users/mmaaschu/Documents/MDB1/Phonegap tests/Phonegap demo1/hello/www/index.html",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_MBD1/11_MBD1_1415/Referentiemateriaal_Week3/DemoLocalDatabase/www/js/index.js",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_MBD1/11_MBD1_1415/Referentiemateriaal_Week4/DemoCameraAndGeolocation/www/index.html",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_MBD1/11_MBD1_1415/Referentiemateriaal_Week5/DemoConnected/config.xml",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_MBD1/11_MBD1_1415/Referentiemateriaal_Week3/DemoLocalDatabase/www/index.html",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_MBD1/11_MBD1_1415/Referentiematerieel_Week4/DemoCameraAndGeolocation/config.xml",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_MBD1/11_MBD1_1415/Referentiematerieel_Week4/DemoCameraAndGeolocation/www/index.html",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_MBD1/11_MBD1_1415/Referentiematerieel_Week4/DemoCameraAndGeolocation/www/js/index.js",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_MBD1/11_MBD1_1415/Referentiemateriaal_Week5/DemoCameraAndGeolocation/config.xml",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_MBD1/11_MBD1_1415/Referentiematerieel_Week4/DemoCameraAndFile/config.xml",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_MBD1/11_MBD1_1415/Referentiematerieel_Week4/DemoCameraAndFile/www/js/index.js",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_MBD1/11_MBD1_1415/Referentiematerieel_Week4/DemoCameraAndFile/www/css/index.css",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_MBD1/11_MBD1_1415/Referentiematerieel_Week4/DemoCameraAndFile/www/index.html",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_MBD1/11_MBD1_1415/DemoContacts_mmaaschu/hello/www/index.html",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_MBD1/11_MBD1_1415/Referentiemateriaal_Week3/DemoLocalDatabase/config.xml",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_MBD1/11_MBD1_1415/Referentiemateriaal_Week3/DemoLocalDatabase/plugins/com.brodysoft.sqlitePlugin/test-www/www/index.html",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_MBD1/11_MBD1_1415/Referentiemateriaal_Week3/DemoLocalDatabase/www/js/SQLitePlugin.js",
+		"/C/Users/mmaaschu/Documents/Hobby/FiveTribesScoringSheet/www/css/index.css",
+		"/C/Users/mmaaschu/Google Drive/BICT_edit/_Modules/Periode3/11_MBD1/11_MBD1_1415/Referentiemateriaal_Week3/DemoLocalDatabase/www/css/index.css",
+		"/C/Users/mmaaschu/Documents/Hobby/FiveTribesScoringSheet/config.xml",
+		"/C/Users/mmaaschu/Documents/MDB1/Phonegap tests/Phonegap demo1/DemoPagingAndSwiping/config.xml",
+		"/C/Users/mmaaschu/Documents/MDB1/Phonegap tests/Phonegap demo1/DemoPagingAndSwiping/www/index.html",
+		"/C/Users/mmaaschu/Documents/MDB1/Phonegap tests/Phonegap demo1/DemoPagingAndSwiping/www/js/index.js",
+		"/C/Users/mmaaschu/Documents/MDB1/Phonegap tests/Phonegap demo1/Demo2/hello/www/js/index.js",
+		"/C/Program Files/nodejs/node_modules/npm/lib/utils/git.js",
+		"/C/Users/mmaaschu/Documents/MDB1/UitwerkingenWeek1/www/index.html",
+		"/C/Users/mmaaschu/Documents/MDB1/UitwerkingenWeek1/www/spec.html",
+		"/C/Users/mmaaschu/Documents/MDB1/UitwerkingenWeek1/www/css/index.css",
+		"/C/Users/mmaaschu/Documents/MDB1/UitwerkingenWeek1/www/js/index.js",
+		"/C/Users/mmaaschu/Documents/MDB1/test/config.xml",
+		"/C/Users/mmaaschu/Documents/MDB1/test2/config.xml",
+		"/C/Users/mmaaschu/Documents/MDB1/UitwerkingenWeek1/UitwerkingenWeek1/config.xml",
+		"/C/Users/mmaaschu/Documents/MDB1/UitwerkingenWeek1/UitwerkingenWeek1/www/index.html",
+		"/C/Users/mmaaschu/Documents/MDB1/Phonegap tests/Demo3/www/index.html",
+		"/C/Users/mmaaschu/Documents/MDB1/Phonegap tests/Phonegap demo1/DemoPagingAndSwiping/platforms/android/assets/www/index.html",
+		"/C/Users/mmaaschu/AppData/Local/Temp/7zO41DC.tmp/index.html",
+		"/C/Users/mmaaschu/AppData/Local/Temp/7zO591E.tmp/index.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"id",
+			"testviewmodel",
+			"www/",
+			" io",
+			"io ",
+			"io",
+			"addLine",
+			"post",
+			"scoreCoins",
+			"this.",
+			"success"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"self."
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "www/js/index.js",
+					"settings":
+					{
+						"buffer_size": 2126,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1365,
+								1365
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "www/index.html",
+					"settings":
+					{
+						"buffer_size": 5120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1391,
+								1391
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 315.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "www/months.html",
+					"settings":
+					{
+						"buffer_size": 399,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								399,
+								399
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "www/css/index.css",
+					"settings":
+					{
+						"buffer_size": 147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								138,
+								138
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "www/js/ko-testData.js",
+					"settings":
+					{
+						"buffer_size": 742,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								160,
+								160
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/mmaaschu/Documents/Hobby/FiveTribesScoringSheetProject.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 283.0,
+	"status_bar_visible": true
+}

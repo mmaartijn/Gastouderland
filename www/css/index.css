@@ -1,0 +1,13 @@
+#panel_menu .childMenuItem {
+    padding-left: 2.5em;
+}
+
+.timeWrapper
+{
+    display: inline-block;
+    width: 3.5em;
+}
+
+.hidden {
+	display: none;
+}

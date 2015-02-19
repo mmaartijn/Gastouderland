@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=medium-dpi" />
+
+        <!-- JQuery links -->
+        <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/jquery.mobile-1.4.5.min.js"></script>
+        <!-- /JQuery links -->
+        <!-- Spinbox plugin-->
+        <script type="text/javascript" src="http://dev.jtsage.com/cdn/spinbox/latest/jqm-spinbox.min.js"></script>
+        <!-- /Spinbox plugin -->
+
+        <!-- Knockout links -->
+        <script src="js/knockout-3.2.0.js"></script>
+        <script src="js/ko-viewModels.js"></script>
+        <script src="js/ko-testdata.js"></script>
+        <!-- /Knockout links -->
+
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>Gastouderland</title>
+    </head>
+    <body>
+        <div data-role="header" id="globalHeader" data-theme="a">
+            <a href="#globalPanel" data-role="button">Menu</a>
+            <h1 data-bind="text: selectedPage().name"></h1>
+        </div>
+        <div data-role="panel" id="globalPanel" data-display="overlay" data-theme="a">
+            <ul data-role="listview" data-bind="foreach: pages">
+                <li data-bind="attr: { 'data-theme' : $parent.selectedPage() === $data ? 'b' : 'a' }">
+                    <a data-bind="attr: { 'href': href }, text: name, css: { 'ui-btn-b': $parent.selectedPage() === $data, childMenuItem: childViewModel() !== undefined ? true : false }"
+                        data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-carat-r"></a>
+                </li>
+            </ul>
+        </div>
+        <div data-role="page" id="page_home">
+            <div role="main" class="ui-content">
+                <!--
+                    ========================================================================
+                                                Home page
+                    ========================================================================
+                -->
+                <ul data-role="listview" data-bind="foreach: sortedChildren">
+                    <li data-bind="attr: { 'data-theme': isPresent() ? 'b' : 'a' }">
+                        <span data-bind="text: firstName"></span>
+                        <p class="ui-li-aside">
+                            <strong data-bind="text: presentFrom"></strong>
+                            <a href="#popup_stopstart" data-role="button" data-mini="true" data-inline="true"
+                                data-rel="popup" data-position-to="window" data-transition="pop"
+                                data-bind="text: isPresent() ? 'Stop' : 'Start', css: { 'ui-btn-b' : isPresent(), 'ui-btn-a' : !isPresent() }"
+                                class="startStopShow">
+                            </a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div id="popup_stopstart" data-role="popup" data-overlay-theme="a" class="ui-popup ui-overlay-shadow ui-corner-all">
+                <div data-role="header" role="banner" class="ui-header ui-bar-a">
+                    <h1 class="ui-title" role="heading" aria-level="1" data-bind="text: selectedChild().firstName"></h1>
+                </div>
+                <div role="main" class="ui-content">
+                    <div class="timeWrapper">
+                        <input type="text" data-role="spinbox" name="spin" max="23" data-options='{"type":"vertical"}'
+                            data-bind="value: selectedChild().suggestedStartStopHours"/>
+                    </div>
+                    <div class="timeWrapper">
+                        <input type="text" data-role="spinbox" name="spin" value="15" min="0" max="45" step="15" data-options='{"type":"vertical"}' data-bind="value: selectedChild().suggestedStartStopMinutes"/>
+                    </div>
+                    <br />
+                    <br />
+                    <a href="#page_home" data-role="button" data-rel="back" data-mini="true" class="ui-corner-all" data-bind="text: selectedChild().isPresent() ? 'Stop' : 'Start', css: { 'ui-btn-b' : selectedChild().isPresent(), 'ui-btn-a' : !selectedChild().isPresent() }" class="startStopHide"></a>
+                </div>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <h4>©mmaartijn</h4>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
